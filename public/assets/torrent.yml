@@ -5,7 +5,7 @@
 # `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
 
 
-subtitle: "this is another dashboard page"
+subtitle: "Torrent"
 
 # This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
 message: ~
@@ -15,13 +15,6 @@ links:
   - name: "Home"
     icon: "fas fa-home"
     url: "#"
-  - name: "Contribute"
-    icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
-    icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
 
 services:
   - name: "More applications on another page!"
